@@ -1,89 +1,96 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>login.com</title>
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>fw login</title>
 </head>
 <style>
-    form{
-        background-color: rgba(255, 255, 255, 0.329);
-        width: fit-content;
-       
-        margin-left: 40%;
-        margin-top: 200PX;
-        padding: 20PX;
-        border-radius: 10PX;
-/
+   
         
-       
+   .login,
+    .name,
+    .email,
+    .password,.submit
+    {
+        display: flex;
+        flex-direction: column;
+        
+        align-items: center;
+        font-family: "Roboto", Arial, sans-serif;
+            }
+    body{
+        background: #000;
         
     }
-    body{
-         background-color: black;
-       
-            }
-            .name,.email,.password{
-                display: flex;
-                flex-direction: column;
-                width: 200px;
-                margin-left: auto;
-                margin-right: auto;
-            }
-            h1{
-                text-align: center;
-            }
-            input{
-                border: none;
-                border-radius: 6px;
-            }
-            a{
-                padding: 5px 0;
-                margin-left: 40px;
-                width: 100px;
-                background-color: blue;
-                text-align: center;
-                color: rgb(245, 241, 241);
-                text-decoration: none;
-                margin-top: 20px;
+    
+
+   
+    .submit :hover{
+        background-color: rgb(243, 73, 22);
+        
+    }
+    form{
+    background: rgba(190, 190, 183, 0.918);
+        background: linear-gradient(180deg, rgba(218,219,240,1) 7%, rgba(218,219,240,1) 37%, rgba(217,217,235,1) 40%, rgba(228,230,240,1) 40%, rgba(234,234,241,1) 40%, rgba(250,250,254,0.9360119047619048) 40%, rgba(235,235,243,1) 40%, rgba(215,214,225,1) 40%, rgba(31,21,234,1) 40%, rgba(220,220,225,1) 40%, rgba(219,221,232,1) 40%, rgba(151,158,204,1) 100%, rgba(80,92,175,1) 100%, rgba(19,12,221,0.9528186274509804) 100%, rgba(133,142,197,1) 100%, rgba(238,238,243,0.9612219887955182) 100%);;
+    margin-left: 600px;
+    margin-right: 250px;
+    margin-top: 200px;
+    width: 300px;
+    height: 400px;
+
+    padding-bottom: 10px;  
+    border-radius: 8px;
+}
+input{
+    border-radius: 8px;
+    padding: 7px 15px;
+    border: 1px solid white;
+   
+}
+.password{
+    padding-bottom: 20px;
+}
+a{
+    text-decoration: none;
+    padding: 4px;
+    background-color: rgb(202, 230, 230);
+    border-radius: 5px;
+    color: #000;
+
+}
 
 
-            }
-            
-</style>
+</style>  
 <body>
     <form action="">
-        <h1 >Login</h1>
-        <div class="name">
-            <label for="">Name</label>
-            <input type="text" placeholder="Name">
-            <label for="">Sir Name</label>
-            <input type="text" placeholder="Sir Name">
+    <div class="login">
+    <h1>Login</h1>
+</div>
 
+
+    <div class="name">
+                <label for="">Name</label>
+        <input type="text" placeholder="name"><br>
+        <label for="">Sir name</label>
+        <input type="text" placeholder="sir name"><br>
         </div>
-       
-       
+
         <div class="email">
-            <label for="">email</label>
-            <input type="email" placeholder="123@email.com">
-
+        <label for="email">email</label>
+        <input type="" placeholder="123@email.com"><br>
         </div>
-        <div class="password">
+
+            <div class="password">
             <label for="">password</label>
             <input type="password" placeholder="password">
-          
-            <a href="home.html">login</a>
-        
+            </div>
+  
 
-        </div>
+<div class="submit">
+    <a href="D:\PRITHVI V\miniproject\home.html">Submit</a>
 
-
-
-
-
-
-    </form>
-    
+</div> 
+</form>   
 </body>
 </html>
